@@ -103,7 +103,7 @@
             </collision>
 
         </link>
-    
+
         <joint type="fixed" name="depth_camera_joint">
             <xacro:insert_block name="joint_pose"/>
             <child link="${frame_prefix}_link"/>
